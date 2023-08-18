@@ -1,8 +1,12 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <div>PageNotFound
+      <NavLink to={-1}><button>Go Back</button></NavLink>
+    </div>
+    
   )
 }
 

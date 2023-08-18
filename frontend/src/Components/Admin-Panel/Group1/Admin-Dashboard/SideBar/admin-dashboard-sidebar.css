@@ -1,0 +1,71 @@
+*{
+    text-align: left;
+}
+#adminPanelMainDiv{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#leftNavBar{
+    background-color: #2e2e2e;
+    padding: 3vh 1vw 2vh 1vw;
+    /* position: relative;
+    overflow-y: scroll; */
+}
+#leftNavBarTop{
+    display: flex;
+    margin-bottom: 3vh;
+}
+.topLogo{
+    align-content: center;
+    width: 75%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    color: rgb(249, 238, 238);
+}
+a{
+    text-decoration: none;    
+}
+a:visited{
+    color: rgb(249, 238, 238);
+}
+#leftNavBarMenu-parts a.active{
+    color: rgb(249, 238, 238);;
+    background: linear-gradient(90deg, rgba(130,13,27,1) 0%, rgba(255,50,40,1) 100%);
+
+}
+.sideBarTitle:hover{
+    background-color: #423d3d;
+    color: white;
+}
+#leftNavBarMenu-parts{
+    margin: 2vh 1vw 2vh 0vw;
+}
+#leftNavBarMenu-parts a{
+    display: inline-block;
+    padding: 2%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+#leftNavBarMenu-parts a:hover{
+    background-color: #423d3d;
+    color: white;
+}
+
+.sideBarTitle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2%;
+}
+.sideBarTitle span i{
+    display: inline-block;
+    width: 2em;
+}
+
+.sideBarTitle .toggle-btn{
+    cursor: pointer;
+}
